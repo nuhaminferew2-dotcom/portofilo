@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><span class="text-purple">Nuhamin.F</span></a>
+
+    <!-- TOGGLER (MOBILE) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- LINKS (RIGHT) -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- HOME / HERO -->
+<section id="home" class="vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT SIDE: TEXT -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-4 fw-bold">Hi, I'm Nuhamin</h1>
+        <h5 class="text-accent mt-2">Front-End Developer (Student)</h5>
+
+        <p class="lead mt-4">
+          I am an aspiring Front-End Developer (Student) with a strong passion for designing modern,
+           responsive, and visually appealing websites. I enjoy transforming ideas into well-structured 
+           and interactive user interfaces while focusing on usability and clean design.
+            I work with HTML, CSS, Bootstrap, and JavaScript to build experiences that are both functional and engaging.
+        </p>
+<a href="#projects" class="btn btn-outline-light btn-sm hero-btn">
+  <i class="fas fa-eye me-1"></i> View My Work
+</a>
+
+<a href="#contact" class="btn btn-primary btn-sm hero-btn">
+  <i class="fas fa-paper-plane me-1"></i> Get in Touch
+</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT SECTION -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Text -->
+      <div class="col-md-8 order-2 order-md-1">
+        <h2 class="mb-3">About Me</h2>
+        <p>
+          Hello, I’m <strong>nuhamin ferehiwot</strong>, a passionate
+          <strong>Front-End Developer</strong> and Information Science student.
+          I specialize in building responsive and user-friendly web interfaces
+          using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.
+        </p>
+        <p>
+          I enjoy analyzing data patterns and continuously enhancing my expertise through complex projects.
+           My goal is to succeed as a data scientist and contribute to impactful business decisions.
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0 order-1 order-md-2">
+        <img src="./images/nu.jpg" alt="nuhamin ferehiwot" class="about-img">
+      </div>
+
+    </div>
+  </div>
+</section><!-- SKILLS -->
+<section id="skills" class="container py-5">
+  <h2 class="text-center mb-4">My Skills</h2>
+  <div class="row text-center">
+    <div class="col-md-3 col-6 mb-4">
+      <h5>HTML</h5>
+      <div class="progress">
+        <div class="progress-bar bg-primary" style="width: 90%">88%</div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 mb-4">
+      <h5>CSS</h5>
+      <div class="progress">
+        <div class="progress-bar bg-success" style="width: 85%">80%</div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 mb-4">
+      <h5>Bootstrap</h5>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 80%">75%</div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 mb-4">
+      <h5>JavaScript</h5>
+      <div class="progress">
+        <div class="progress-bar bg-warning" style="width: 70%">70%</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects"class="project-sectiion py-5" >
+  <div class="container">
+    <h2 class="text-center mb-4">My Projects</h2>
+
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/project.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">Personal portfolio using HTML, CSS and Bootstrap.</p>
+            <a href="#" class="btn btn-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-5">Contact Me</h2>
+
+  <div class="row justify-content-center g-4">
+
+    <!-- Left: Contact Info Box -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 shadow-sm p-3">
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Get in Touch</h5>
+          
+          <p><i class="fas fa-envelope me-2"></i> <strong>Email:</strong> nuhaminferew2@gmail.com</p>
+          <p><i class="fas fa-phone me-2"></i> <strong>Phone:</strong> +251 943 202 198</p>
+          <p><a href="https://t.me/Nuhamin" target="_blank" class="text-decoration-none">
+            <i class="fab fa-telegram me-2"></i> <strong>Telegram:</strong> @Nuhamin
+          </a></p>
+          <p><a href="https://github.com/nuhaminferew2" target="_blank" class="text-decoration-none">
+            <i class="fab fa-github me-2"></i> <strong>GitHub</strong>
+          </a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Contact Form Box -->
+    <div class="col-lg-6 col-md-8">
+      <div class="card h-100 shadow-sm p-3">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <!-- Top Row -->
+    <div class="row align-items-center">
+
+      <!-- Left Side: Name + Role + Icons -->
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+        <h6 class="footer-name mb-1">Nuhamin Ferehiwot<br>
+          Front-End Developer passionate<br> about creating amazing digital experiences.</h6>
+
+        <!-- Accent Line -->
+        <div class="footer-line"></div>
+
+        <span class="footer-role">Front-End Developer</span>
+
+        <!-- Social Icons -->
+        <div class="footer-social mt-2">
+          <a href="https://github.com/nuhaminferew2" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+           <a href="https://t.me/nuhamin" target="_blank">
+            <i class="fab fa-telegram me-2"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Side: Menu -->
+      <div class="col-md-6 text-center text-md-end">
+        <nav class="footer-menu">
+          <a href="#home">Home</a>
+          <a href="#projects">Project</a>
+          <a href="#skills">Skill</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="text-center mt-3">
+      <p class="footer-copy mb-0">
+        © 2025 <strong>nuhamin ferehiwot</strong>. All Rights Reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+<!-- bootstrap js and my script -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="./style.css"></script>
+</body>
+</html>
